@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*1440px*/
+
+@media screen and (min-width: 992px){
+    
+    body{
+        width: 65vw;
+        height: 80vh;
+        margin-top: 2%;
+    }
+
+    div.head-stats{
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 10%;
+    }
+
+    div.body-stats{
+        margin: 0;
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 10px;
+        border-radius: 0 10% 10% 0;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.247);
+    }
+
+    div.attribution{
+        display: none;
+    }
+
+}

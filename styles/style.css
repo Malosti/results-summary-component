@@ -38,11 +38,13 @@
     --neutral-dark-gray-blue: hsl(224, 30%, 27%);
 }
 
-body, html{
+body{
     display: block;
     margin: auto;
     width: 375px;
     height: 100vh;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div.head-stats{
