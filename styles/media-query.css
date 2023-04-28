@@ -16,6 +16,11 @@
         border-radius: 10%;
     }
 
+    div.head-stats > div#overall-stats{
+        width: 50%;
+        margin-bottom: 2.5rem;
+    }
+
     div.body-stats{
         margin: 0;
         float: right;
